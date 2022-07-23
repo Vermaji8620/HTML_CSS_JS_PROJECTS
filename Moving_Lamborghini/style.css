@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+.track {
+  height: 100vh;
+  animation: carmove linear 1s infinite;
+  width: 200%;
+  background-image: url(./cloud.jpg);
+  background-size: 100% 100%;
+  position: absolute;
+}
+
+.car {
+  animation: shake linear 1s infinite;
+  height: 28rem;
+  background: url(./car.png) no-repeat;
+  position: relative;
+  top: 37rem;
+  background-size: 40%;
+}
+
+#tape img {
+  position: relative;
+  top: 50rem;
+  width: 300vw; 
+  height: 23rem;
+}
+
+.wheel img {
+  width: 6.8rem;
+}
+
+#wheel1 {
+  position: absolute;
+  animation: wheelrotation linear 0.6s infinite;
+  left: 7.2rem;
+  top: 7rem;
+}
+
+#wheel2 {
+  position: absolute;
+  animation: wheelrotation linear 0.6s infinite;
+  left: 30.6rem;
+  top: 7.2rem;
+}
+
+@keyframes wheelrotation {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes carmove {
+  100% {
+    transform: translateX(-100vw);
+  }
+}
+
+@keyframes shake {
+  0% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
