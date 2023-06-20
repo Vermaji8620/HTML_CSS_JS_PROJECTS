@@ -1,0 +1,30 @@
+* {
+  /* overflow: hidden; */
+}
+
+body {
+  background-color: rebeccapurple;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  border: 2px solid green;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+}
+
+.main-one {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 30%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}

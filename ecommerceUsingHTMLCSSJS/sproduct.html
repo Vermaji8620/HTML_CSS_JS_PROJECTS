@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <style>
+      @media screen and (max-width:660px)  {
+        #prodetails{
+          display: flex;
+          flex-direction: column;
+          width: 160vw;
+        }
+      }
+
+      @media screen and (max-width:455px) {
+        #product1 .pro {
+          width: 23%;
+          min-width: 162px;
+          margin: 26px 0px;
+          padding: 43px 20px;
+          border: 1px solid #cce7d0;
+          position: relative;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"
+        ><img
+          src="./img/pexels-photo-430205.jpeg"
+          style="width: 100px; height: 50px"
+          class="logo"
+          alt="to be given"
+      /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html" class="active">Shop</a></li>
+          <li><a href="blog.html">blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li>
+            <a href="cart.html" id="lg-bag"><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-x"></i></i></a>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"> </i>
+      </div>
+    </section>
+
+    <section id="prodetails" class="section-p1">
+        <div class="single-pro-image">
+            <img src="./img/cloth5.webp" width="100%" id="MainImg" alt="to be uploaded">
+
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img src="./img/cloth6.webp" width="100%" class="small-img" alt="to be uploaded">
+                </div>
+                <div class="small-img-col">
+                    <img src="./img/cloth7.webp" width="100%" class="small-img" alt="to be uploaded">
+                </div>
+                <div class="small-img-col">
+                    <img src="./img/cloth8.webp" width="100%" class="small-img" alt="to be uploaded">
+                </div>
+                <div class="small-img-col">
+                    <img src="./img/cloth3.webp" width="100%" class="small-img" alt="to be uploaded">
+                </div>
+            </div>
+        </div>
+        <div class="single-pro-details">
+            <h6>home/tshirts</h6>
+            <h4>men's fashion</h4>
+            <h2>$139.00</h2>
+            <select title="selection">
+                <option>select size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>SMALL</option>
+                <option>LARGE</option>
+                <option>SELECT SIZE</option>
+            </select>
+            <input type="number" value="1" placeholder="enter value">
+            <button class="normal">Add to cart</button>
+            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam saepe, fuga qui consequuntur velit voluptatum voluptatem blanditiis vel tenetur porro quo adipisci laudantium odit aut ducimus? Esse, omnis doloribus itaque repellat exercitationem dicta, quisquam quas sunt recusandae nemo, ullam maxime.</span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Summer Collection new Modern design</p>
+        <div class="pro-container">
+          <div class="pro">
+            <img src="./img/shoe4.jpeg" alt="TO BE UPLOADED" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>cartoon Astronaut</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+          <div class="pro">
+            <img src="./img/shoe1.webp" alt="TO BE UPLOADED" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>cartoon Astronaut</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+          <div class="pro">
+            <img src="./img/shoe2.webp" alt="TO BE UPLOADED" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>cartoon Astronaut</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+          <div class="pro">
+            <img src="./img/shoe3.webp" alt="TO BE UPLOADED" />
+            <div class="des">
+              <span>adidas</span>
+              <h5>cartoon Astronaut</h5>
+              <div class="star">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+              <h4>$78</h4>
+            </div>
+            <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+          </div>
+        </div>
+      </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+      <div class="newstext">
+        <h4>Sign Up for newsletter</h4>
+        <p>
+          Get email updates about our latest shops and <span>new offers</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="your email address" />
+        <button class="normal">Sign up</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img class="logo" src="./img/mny.jpeg" alt="to be uploaded" />
+        <h4>Contact</h4>
+        <p>
+          <strong>Address:</strong> Lorem ipsum, dolor sit amet consectetur
+          adipisicing elit. Voluptatem, nihi
+        </p>
+        <div class="follow">
+          <h4>follow us</h4>
+          <div class="icon">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-pinterest-p"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <h4>About</h4>
+        <a href="#">About us</a>
+        <a href="#">Delivery information</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms and conditions</a>
+        <a href="#">Contact us </a>
+      </div>
+      <div class="col">
+        <h4>My account</h4>
+        <a href="#">Sign in</a>
+        <a href="#">View Cart</a>
+        <a href="#">My wishlist</a>
+        <a href="#">Track My Order</a>
+        <a href="#">Help</a>
+      </div>
+      <div class="col install">
+        <h4>install app</h4>
+        <p>Form app store or google play store</p>
+        <div class="row">
+          <img src="./img/both.jfif" alt="to be uploaded" />
+        </div>
+        <p>Secured Payment Gateways</p>
+        <img src="./img/pay.jfif" alt="to be uploaded" />
+      </div>
+    </footer>
+    
+    <div class="copy">
+      <div class="copyright">
+        <p>@2023 &copy vermajiii ecommerce website</p>
+      </div>
+    </div>
+
+    <script>
+        let mainimg= document.getElementById('MainImg')
+        let smallimg=document.getElementsByClassName('small-img')
+        smallimg[0].onclick=function(){
+            mainimg.src= smallimg[0].src
+        }
+        smallimg[1].onclick=function(){
+            mainimg.src= smallimg[1].src
+        }
+        smallimg[2].onclick=function(){
+            mainimg.src= smallimg[2].src
+        }
+        smallimg[3].onclick=function(){
+            mainimg.src= smallimg[3].src
+        }
+    </script>
+
+    <script src="./script.js"></script>
+    <script
+      src="https://kit.fontawesome.com/58c62a7de4.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+body {
+  font-family: algerian;
+  background-color: green;
+  text-align: center;
+  color: wheat;
+  font-weight: bold;
+}
+
+h1 {
+  color: goldenrod;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+#start-btn,
+#new-btn {
+  width: 150px;
+  background-color: goldenrod;
+  color: #016f32;
+  font-weight: bold;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  text-align: center;
+}
+
+button {
+  align-items: center;
+  margin:  auto;
+}

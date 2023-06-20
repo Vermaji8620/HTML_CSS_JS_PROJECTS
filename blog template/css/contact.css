@@ -1,0 +1,33 @@
+.contact-content {
+  display: block;
+  width: 60%;
+  padding: 56px;
+  font-weight: bold;
+  overflow: hidden;
+  /* background-color: rgb(100, 100, 201); */
+  /* position: relative; */
+}
+.contact-content::after {
+  content: "";
+  /* background-image: url(../ocean-3605547_960_720.jpg); */
+  position: absolute;
+  background-position: 90%;
+  width: 80%;
+  top: 0;
+  /* height: 30%; */
+  margin: auto;
+  padding: auto;
+  opacity: 0.3;
+}
+
+.form-box input,
+textarea {
+  width: 70%;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.contact-form {
+  height: 80vh;
+}

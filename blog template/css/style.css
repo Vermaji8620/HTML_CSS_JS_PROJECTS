@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  /* overflow:hidden; */
+  padding: 0;
+}
+
+.navigation {
+  height: 74px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: algerian;
+}
+
+
+.footer {
+  height: 50px;
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+
+/* C:\Users\user\VERMAJI_FILES_N_FOLDER\PycharmProjects\MY_JS_PROJECTS_AND_CLONES\blog template */
