@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 10px;
+  font-family: algerian;
+  min-width: 400px;
+}
+
+input {
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%;
+  border: 2px solid green;
+  margin: 10px auto;
+  box-sizing: border-box;
+  font-weight: bold;
+  height: 30px;
+  border-radius: 10px;
+}
+
+button {
+  color: wheat;
+  background-color: #339f33;
+  padding: 10px 10px;
+  font-weight: bold;
+  border: none;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  margin: 5px;
+}
+
+li a {
+  color: #339f33;
+}
+
+#delete_btn {
+  background-color: white;
+  color: green;
+  border: 2px solid green;
+}
