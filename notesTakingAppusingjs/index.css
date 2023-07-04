@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: algerian;
+}
+
+body {
+  width: 100vw;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgb(31, 166, 219), rgb(109, 65, 210));
+  border: 2px solid wheat;
+}
+
+#title_taker {
+  width: 80%;
+  border: 2px solid yellowgreen;
+  margin: 50px auto;
+  height: 7%;
+}
+
+#description_taker {
+  border: 2px solid red;
+  margin: auto;
+  height: 20%;
+  width: 80%;
+}
+
+.btn {
+  width: 5%;
+  border: 2px solid red;
+  margin: 30px auto;
+}
+
+#btn_start {
+  /* background-color: rgb(4, 26, 47); */
+  width: 100%;
+  /* color: wheat; */
+  /* padding: 10px 10px 10px 10px; */
+}
+
+#title_text,
+#desc_text {
+  width: 100%;
+  height: 100%;
+  font-size: 25px;
+}
+
+#desc_text {
+  font-size: 15px;
+}
+
+#all_notes_taker {
+  border: 2px solid blue;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 50px auto;
+}
+
+#notescontainer {
+  /* width: 100%; */
+  display: flex;
+}
+
+.note {
+  margin: 10px 10px;
+  border: 2px solid black;
+  width: 30%;
+  flex-wrap: wrap;
+}
+
+#all_notes_take {
+  /* width: 100%; */
+}
+
+.note_title,
+.note_desc {
+  display: flex;
+  border: 2px solid blue;
+  margin: 10px 10px;
+  padding: 10px 10px;
+  flex-wrap: wrap;
+}
